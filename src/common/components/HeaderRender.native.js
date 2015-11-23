@@ -17,7 +17,7 @@ var btnMenu = require('../../images/btnMenu.png');
 export default function () {
   return (
     <View style={styles.toolbar}>
-        <Button styleDisabled={{color: 'red'}} onPress={this._handlePress}>
+        <Button styleDisabled={{color: 'red'}} onPress={this.menuClick.bind(this)}>
             <Image style={styles.toolbarButton} source={btnMenu} resizeMode="contain" />
         </Button>
       <Image style={styles.logo} source={logo} resizeMode="contain" />
