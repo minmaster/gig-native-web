@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c10091a128e47ed4ef804bd753c0f45745699756">
+        <dex dex="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-760d22385fe2b47510de0b1e27c4785d95c932bf.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd4c42401d36342901ac4280fb92a831f8007f3d">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/classes-5cbe55df5d4b2f06ca9fe2aa440f4832e49d3175.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/classes-370cbc6895d0c503004f8b2e7321e203f8c3e73b.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd4c42401d36342901ac4280fb92a831f8007f3d">
+        <dex dex="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-2edd6ccd5709386975f740631a03030cde765cab.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c10091a128e47ed4ef804bd753c0f45745699756">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/classes-354d9612577b10ecdda47cfe9097832702b09c85.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.13.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5cf2e19782be86b2cc857dcec5bf6211457e7138">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/classes-4ae206becebc748242076ec902607e3eaa7aa5f0.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-7cf9adf8578614f93785f51e87befc568b04c30f.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-642491c8e01d61de0bc019ae03dae1e30eb14185.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eb9817e26186e1a267cdd14211742ecc793de32e">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/classes-0a313249eb367168fba19332dfe2b33c69797bd3.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.13.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5cf2e19782be86b2cc857dcec5bf6211457e7138">
+        <dex dex="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-72febb1ec82402c66f2d42242f07ae508b57535b.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d5fddbfc516e39dd74d776e5cca8b761721990b">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/classes-bc4d270a87ae60f378fcc2df358ae31372b8213e.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="af0fe468c884e2d153cf564326b23b54ff0040ce">
+        <dex dex="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-3b34bc573d85e1aa9c019a5c2950bf29450173d5.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d5fddbfc516e39dd74d776e5cca8b761721990b">
+        <dex dex="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-c6d43e9ebb77252b705c40eeae25d8088c74d76b.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/classes-333deee204a78bea31b2443a77fc99ce7ad4460b.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-c59db9646ececef0eb074ff21d309072d25c2281.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-256a30c8b87534a8ca677c084a9a4872c2c76fa3.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="af0fe468c884e2d153cf564326b23b54ff0040ce">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/classes-e52c6e106e5d654d8a783081a04497beb7c5804a.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.13.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0b5e946b76cdb1f00b18f2981e7d997141a66c9f">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-ddb4983d9196b06f67149ddc9039ff7495ad3ad9.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-02e71f9edc755511c498bcef88732f568693dc5e.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.5.0/bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a/okio-1.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/okio-1.5.0-15a52cecb087ef91130ab7eba9ca0aad36037b12.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.13.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0b5e946b76cdb1f00b18f2981e7d997141a66c9f">
+        <dex dex="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-8ade502f76d0fe6e05b48ba098046c4bde93d5d6.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-a40e4b111ed0e4cc09797135e372c7674d6eb147.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-a9ddfe6cece1562297bb666105752370358e4890.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.4.0/69206d28966656052a982ceded583abdeb41cf63/okhttp-ws-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="69206d28966656052a982ceded583abdeb41cf63">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.4.0-e02932c3b83589ee94cbe05f1f329b711cdfd4f2.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eb9817e26186e1a267cdd14211742ecc793de32e">
+        <dex dex="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-bdf91c2d03990a134bf873abef08e69e8a54c1f7.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-39805724487c420a258e16f2cea806ce0b8b8e7a.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/pedro/Documents/proyectos/react-native-nw-react-calculator/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-2c99fdc41330655fde4b66abfce705f5ae0fd3b4.jar" />
+    </item>
+    <item
+        jar="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-52258058f7e2c386d64ed792ca907665b8f8a9d2.jar" />
+    </item>
+
+</items>
