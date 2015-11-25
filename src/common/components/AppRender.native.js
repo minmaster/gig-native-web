@@ -3,10 +3,6 @@
 import Router from './Router';
 
 import React, {
-  StyleSheet,
-  View,
-  Platform,
-  ScrollView
 } from 'react-native';
 
 

@@ -1,15 +1,16 @@
 'use strict';
 
 import Header from './Header';
-import Home from './Home';
 import SideMenu from 'react-native-side-menu';
 import Menu from './Menu';
 import Dimensions from 'Dimensions';
+import Home from './Home';
 
 import React, {
   StyleSheet,
-  NavigatorIOS,
-  View
+  Navigator,
+  View,
+  Text
 } from 'react-native';
 
 const window = Dimensions.get('window');
@@ -18,15 +19,17 @@ var menuHeight = window.width - 60;
 
 export default function () {
   return (
-      <SideMenu menu={<Menu />} openMenuOffset={menuHeight}>
+      <SideMenu menu={<Menu navigator={this.state.nav}/>} openMenuOffset={menuHeight}>
           <View style={styles.content}>
-            <Header />
-            <NavigatorIOS
+            <Header  />
+            <Navigator
+                ref="nav"
                 style={styles.content}
-                navigationBarHidden="true"
+                renderScene={this.renderScene.bind(this)}
                 initialRoute={{
                     title: 'Home',
                     component: Home,
+                    id: 'home'
                 }} />
           </View>
       </SideMenu>

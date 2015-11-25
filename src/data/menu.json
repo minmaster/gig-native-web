@@ -1,0 +1,43 @@
+{
+    "menu" : [
+        {
+            "title" : "Home",
+            "id" :  "home"
+        },
+        {
+            "title" : "Coke Tv",
+            "component" : "CokeTv"
+        },
+        {
+            "title" : "Coke Fm",
+            "component" : "CokeFm"
+        },
+        {
+            "title" : "Get Happy Offers",
+            "component" : "Happy",
+            "badge" : 3
+        },
+        {
+            "title" : "Kiss Happiness",
+            "component" : "Kiss"
+        },
+        {
+            "title" : "Coke Events",
+            "component" : "Events"
+        },
+        {
+            "title" : "Scan Your Coke",
+            "component" : "Scan"
+        },
+        {
+            "title" : "Wallets",
+            "component" : "Wallets",
+            "badge" : 4
+        },
+        {
+            "title" : "Update",
+            "component" : "Update",
+            "badge" : 2
+        }
+    ]
+}

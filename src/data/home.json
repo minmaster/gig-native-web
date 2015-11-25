@@ -5,7 +5,7 @@
             "title" : "The Slo-Mo Show",
             "subtitle" : "You wouldn’t have seen anything like this before. Amazing skate moves in grizzly detail.",
             "caption" : "Sport",
-            "action" : "content.coketv",
+            "action" : "videos",
             "params" : {"id" : 1}
         },
         {
@@ -13,7 +13,7 @@
             "title" : "The Pizza Show",
             "subtitle" : "We’ll travel the globe to uncover the best pizzas out there. Meet the characters that deliver slices of pure happiness.",
             "caption" : "Food",
-            "action" : "content.coketv",
+            "action" : "videos",
             "params" : {"id" : 2}
         },
         {
@@ -26,7 +26,7 @@
             "subtitle" : "The three year holiday",
             "caption" : "Life",
             "className" : "right",
-            "action" : "content.articles",
+            "action" : "articles",
             "params" : {"id" : 1}
         },
         {
@@ -35,7 +35,7 @@
             "subtitle" : "Ackee & Saltfish",
             "caption" : "POP",
             "className" : "right",
-            "action" : "content.coketv",
+            "action" : "videos",
             "params" : {"id" : 4}
         },
         {
@@ -48,7 +48,7 @@
             "subtitle" : "#RealTalk with Biebs",
             "caption" : "POP",
             "className" : "black",
-            "action" : "content.articles",
+            "action" : "articles",
             "params" : {"id" : 2}
         },
         {
@@ -57,7 +57,7 @@
             "subtitle" : "LE1F is just way too much fun, and his latest video is no exception.",
             "caption" : "Music",
             "className" : "black",
-            "action" : "content.articles",
+            "action" : "articles",
             "params" : {"id" : 4}
         },
         {
@@ -66,14 +66,14 @@
             "subtitle" : "Best ambassadors",
             "caption" : "Gallery",
             "className" : "scan",
-            "action" : "content.gallery"
+            "action" : "gallery"
         },
         {
             "image" : "section-home07.jpg",
             "title" : "Real Beauty",
             "subtitle" : "Eye of the beholder",
             "caption" : "Life",
-            "action" : "content.articles",
+            "action" : "articles",
             "params" : {"id" : 5}
         },
         {

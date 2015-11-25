@@ -13,7 +13,10 @@ class Home extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
   handleClick(item) {
-      console.log(item);
+      this.props.navigator.push({
+            id: item.action,
+            passProps: {item: item},
+        });
   }
 
 

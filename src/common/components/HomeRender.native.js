@@ -25,8 +25,8 @@ export default function (props, state) {
   return (
     <ScrollView>
         <View style={styles.home}>
-          {this.state.items.map(function(item) {
-            return <TouchableHighlight onClick={this.handleClick.bind(this, item)} style={styles.homeItems} >
+          {this.state.items.map(function(item, i) {
+            return <TouchableHighlight key={i} onPress={this.handleClick.bind(this, item)} style={styles.homeItems} >
             <View style={styles.homeItems} >
                 <View style={styles.imageBox}>
                     <Image source={{uri: getImage(item.image)}} style={styles.homeImage} />
