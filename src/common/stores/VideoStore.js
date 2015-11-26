@@ -2,17 +2,42 @@
 
 import { EventEmitter } from 'events';
 import assign from 'object-assign';
-import Data from '../../data/videos.json';
+import request from 'superagent';
+import promise from 'bluebird';
 
-var videos = Data.videos;
+var url = '../../data/videos.json';
 
 var VideoStore = assign({}, EventEmitter.prototype, {
     getVideos: function() {
-        return videos;
+        return new Promise(function(resolve, reject) {
+            request
+                .get(url)
+                .end(function(error, data) {
+                    if (error) {
+                        reject(error);
+                    }
+                    else {
+                        resolve(data);
+                    }
+                })
+
+        });
     },
     getVideo: function(id) {
-        return videos.filter(function (el) {
-            return (el.id === id);
+        return new Promise(function(resolve, reject) {
+            request
+                .get(url)
+                .end(function(error, data) {
+                    if (error) {
+                        reject(error);
+                    }
+                    else {
+                        data.filter(function(el) {
+                            resolve(el.id === id);
+                        })
+                    }
+                })
+
         });
     }
 })

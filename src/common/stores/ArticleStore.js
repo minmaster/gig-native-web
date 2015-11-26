@@ -2,17 +2,42 @@
 
 import { EventEmitter } from 'events';
 import assign from 'object-assign';
-import Data from '../../data/articles.json';
+import request from 'superagent';
+import promise from 'bluebird';
 
-var articles = Data.articles;
+var url = '../../data/articles.json';
 
 var ArticleStore = assign({}, EventEmitter.prototype, {
     getItems: function() {
-        return articles;
+        return new Promise(function(resolve, reject) {
+            request
+                .get(url)
+                .end(function(error, data) {
+                    if (error) {
+                        reject(error);
+                    }
+                    else {
+                        resolve(data);
+                    }
+                })
+
+        });
     },
     getItem: function(id) {
-        return articles.filter(function (el) {
-            return (el.id === id);
+        return new Promise(function(resolve, reject) {
+            request
+                .get(url)
+                .end(function(error, data) {
+                    if (error) {
+                        reject(error);
+                    }
+                    else {
+                        data.filter(function(el) {
+                            resolve(el.id === id);
+                        })
+                    }
+                })
+
         });
     }
 })

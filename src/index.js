@@ -12,7 +12,5 @@ require('./styles/main.css');
 var content = document.getElementById('content');
 
 ReactDOM.render((
-  <Router>
-    <Route path="/" component={App} />
-  </Router>
+  <App />
 ), content);

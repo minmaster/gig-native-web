@@ -2,7 +2,6 @@
 
 import Base from './RouterBase';
 import Render from './RouterRender';
-import React from 'React';
 
 export default class Router extends Base {
   constructor (props) {

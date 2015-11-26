@@ -8,10 +8,18 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      items: HomeStore.getData()
-    };
+        items: []
+    }
+
     this.handleClick = this.handleClick.bind(this);
   }
+  componentDidMount() {
+      HomeStore.getData().then(data => {
+          this.setState({items: data.home})
+          console.log(this.state);
+      })
+  }
+
   handleClick(item) {
       this.props.navigator.push({
             id: item.action,
