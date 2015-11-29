@@ -26,7 +26,7 @@ export default function (props, state) {
     <ScrollView>
         <View style={styles.home}>
           {this.state.items.map(function(item, i) {
-            return <TouchableHighlight key={i} onPress={this.handleClick.bind(this, item)} style={styles.homeItems} >
+            return <TouchableHighlight key={i} onPress={this.handleClick.bind(this, item, 'native')} style={styles.homeItems} >
             <View style={styles.homeItems} >
                 <View style={styles.imageBox}>
                     <Image source={{uri: getImage(item.image)}} style={styles.homeImage} />
@@ -34,6 +34,7 @@ export default function (props, state) {
                 <View style={styles.textBox}>
                     <Text style={styles.caption}>{textUppercase(item.caption)}</Text>
                     <Text style={styles.title}>{item.title}</Text>
+                  <Text style={styles.subtitle}>{item.subtitle}</Text>
                 </View>
             </View>
             </TouchableHighlight>
@@ -53,7 +54,7 @@ var styles = StyleSheet.create({
         justifyContent: 'center'
     },
     homeItems: {
-        height: 200,
+        height: 250,
         flex: 1,
         borderBottomWidth: 3,
         borderColor: 'white',
@@ -86,6 +87,10 @@ var styles = StyleSheet.create({
         fontSize: 25,
         fontFamily: 'Helvetica',
         fontWeight: '100'
+    },
+    subtitle: {
+        color: 'white',
+        fontSize: 16
     },
     caption: {
         color: 'white',

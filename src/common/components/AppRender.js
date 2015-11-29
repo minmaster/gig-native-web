@@ -5,8 +5,6 @@ import Router from './Router';
 
 export default function () {
   return (
-    <div className='main'>
-        <Router />
-    </div>
+      <Router />
   );
 }

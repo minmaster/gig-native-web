@@ -19,7 +19,7 @@ var menuHeight = window.width - 60;
 
 export default function () {
   return (
-      <SideMenu menu={<Menu navigator={this.state.nav}/>} openMenuOffset={menuHeight}>
+      <SideMenu ref="sidemenu" menu={<Menu navigator={this.state.nav}/>} openMenuOffset={menuHeight} defaultOpen={this.state.menu}>
           <View style={styles.content}>
             <Header  />
             <Navigator

@@ -1,0 +1,7 @@
+'use strict';
+
+module.exports = {
+    RECEIVE_MENU: 'RECEIVE_MENU',
+    RECEIVE_STATE_MENU: 'RECEIVE_STATE_MENU',
+    RECEIVE_ERROR: 'RECEIVE_ERROR'
+};

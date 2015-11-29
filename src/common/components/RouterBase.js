@@ -10,7 +10,10 @@ import React from 'react';
 class Router extends Component {
 
   constructor(props) {
-    super(props);
+      super(props);
+      this.state = {
+          nav: null
+      }
   }
   renderScene(route, nav) {
       var Component;
@@ -33,16 +36,18 @@ class Router extends Component {
             return(<Home navigator={nav} />)
           break;
           default:
-            return(<Component navigator={nav} />)
+            return(<Home navigator={nav} />)
           break;
       }
   }
 
   componentDidMount() {
-      this.setState({'nav': this.refs.nav})
+      this.setState({
+          nav: this.refs.nav
+      });
   }
 
-
 }
+
 
 module.exports = Router;

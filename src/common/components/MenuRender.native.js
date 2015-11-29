@@ -33,8 +33,8 @@ var ListItem = function(row) {
     )
 }
 
-
 export default function () {
+
   return (
       <View style={styles.menu}>
         <Image source={require('../../images/bgmenu.jpg')} style={styles.bgMenu} resizeMode="cover" />

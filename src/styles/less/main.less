@@ -163,13 +163,17 @@ section {
         border-bottom: 1px solid #86868e;
         padding: 2rem 0;
 
+        p {
+            display: inline-block;
+        }
+
         span {
             border-radius: 2rem;
             background: #d82d33;
             display: inline-block;
             position:relative;
             z-index: 2;
-            left: -0.5rem;
+            left: 0.5rem;
             top: -0.2rem;
             padding: 0 .5rem;
             font-size: 1.1rem;
@@ -308,6 +312,7 @@ section {
 }
 
 .home-list {
+    background: white;
 
     h2 {
         color: white;
@@ -1659,4 +1664,22 @@ section {
         }
 
     }
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
 }

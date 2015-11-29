@@ -8,12 +8,19 @@ class Video extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      item: VideoStore.getVideo(this.props.item.params.id)[0]
-    };
-
+        item: {}
+    }
   }
 
+  componentDidMount() {
+      var item = this.props.item || this.props.location.query.item;
+
+      VideoStore.getVideo(item.params.id).then((data) => {
+          this.setState({item: data})
+      })
+  }
 
 }
+
 
 module.exports = Video;

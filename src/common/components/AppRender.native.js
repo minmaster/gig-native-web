@@ -7,7 +7,7 @@ import React, {
 
 
 export default function () {
-  return (
-      <Router />
-  );
+    return (
+        <Router />
+    );
 }

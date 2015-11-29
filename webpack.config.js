@@ -32,8 +32,8 @@ module.exports = {
       exclude: /node_modules/,
       loader: 'react-hot!babel-loader'
     }, {
-      test: /\.sass/,
-      loader: 'style-loader!css-loader!sass-loader?outputStyle=expanded&indentedSyntax'
+      test: /\.less/,
+      loader: 'style-loader!css-loader!less-loader?outputStyle=expanded&indentedSyntax'
     }, {
       test: /\.css$/,
       loader: 'style-loader!css-loader'

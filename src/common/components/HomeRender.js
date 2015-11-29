@@ -18,16 +18,14 @@ var If = React.createClass({
 export default function (props, state) {
 
     var list = [];
-    this.state.items.map(function(item, i) {
+    this.state.items.map((item, i) => {
 
         var styleCont = {
             backgroundImage: 'url(src/images/'+item.image+')'
         }
 
-        console.log(item);
-
         list.push(
-            <li key={i}>
+            <li key={i} onClick={this.handleClick.bind(this, item, 'web')}>
                 <div className="cont" style={styleCont}>
                     <if condition={item.caption}>
                         <div className='caption right'>

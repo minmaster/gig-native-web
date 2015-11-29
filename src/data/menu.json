@@ -2,7 +2,8 @@
     "menu" : [
         {
             "title" : "Home",
-            "id" :  "home"
+            "id" :  "home",
+            "path" : "/"
         },
         {
             "title" : "Coke Tv",

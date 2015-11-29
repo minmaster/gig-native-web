@@ -5,15 +5,15 @@ import Render from './HeaderRender';
 import React from 'react';
 
 export default class Header extends Base {
-  constructor (props) {
-    super(props);
-  }
+    constructor (props) {
+        super(props);
+    }
 
-  render () {
-    return Render.call(this, this.props, this.state);
-  }
+    render () {
+        return Render.call(this, this.props, this.state);
+    }
 }
 
 Header.contextTypes = {
-  menuActions: React.PropTypes.object.isRequired
+    menuActions: React.PropTypes.object.isRequired
 };

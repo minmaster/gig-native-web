@@ -16,6 +16,7 @@ import React, {
 export default function () {
   return (
       <ScrollView style={styles.container}>
+        {(this.state.item.source) ?
         <YouTube
             ref="youtubePlayer"
             videoId={this.state.item.source}
@@ -23,10 +24,10 @@ export default function () {
             playsInline={true}
             hidden={false}
             style={styles.video}/>
+        : <View /> }
         <View style={styles.detail}>
             <Text style={styles.title}>{this.state.item.title}</Text>
             <Text style={styles.description}>{this.state.item.description}</Text>
-
             <View style={styles.buttons}>
                 <Button style={styles.button}><Image style={styles.buttonImage} source={require('../../images/btn-circle-download.png')} /></Button>
                 <Button style={styles.button}><Image style={styles.buttonImage} source={require('../../images/btn-circle-share.png')} /></Button>

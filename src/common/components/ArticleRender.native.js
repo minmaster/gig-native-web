@@ -3,6 +3,7 @@
 import Router from './Router';
 import Button from 'react-native-button';
 import ParallaxView from 'react-native-parallax-view';
+import Parameters from '../utils/parameters';
 
 import React, {
   StyleSheet,
@@ -12,16 +13,12 @@ import React, {
   Image
 } from 'react-native';
 
-var getImage = function(image) {
-    return 'http://cokestream.gigigo.com/'+image;
-}
-
 
 export default function () {
   return (
       <ParallaxView
         style={styles.container}
-        backgroundSource={{uri: getImage(this.state.item.image)}}
+        backgroundSource={{uri: Parameters.getImage(this.state.item.image)}}
         windowHeight={350}>
         <View style={styles.content}>
             <View style={styles.detail}>

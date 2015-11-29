@@ -5,11 +5,11 @@ import assign from 'object-assign';
 import request from 'superagent';
 import promise from 'bluebird';
 
-var url = '../../data/videos.json';
+var url = 'http://localhost:8000/src/data/videos.json';
 
 var VideoStore = assign({}, EventEmitter.prototype, {
     getVideos: function() {
-        return new Promise(function(resolve, reject) {
+        return new Promise((resolve, reject) => {
             request
                 .get(url)
                 .end(function(error, data) {
@@ -24,17 +24,20 @@ var VideoStore = assign({}, EventEmitter.prototype, {
         });
     },
     getVideo: function(id) {
-        return new Promise(function(resolve, reject) {
+        return new Promise((resolve, reject) => {
             request
                 .get(url)
-                .end(function(error, data) {
+                .end(function(error, response) {
                     if (error) {
                         reject(error);
                     }
                     else {
-                        data.filter(function(el) {
-                            resolve(el.id === id);
-                        })
+                        var videos = response.body.videos;
+                        videos.filter((el) => {
+                            if (el.id == id) {
+                              resolve(el);
+                            }
+                        });
                     }
                 })
 

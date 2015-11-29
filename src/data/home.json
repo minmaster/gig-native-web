@@ -1,6 +1,14 @@
 {
     "home" : [
         {
+            "image" : "section-home03.jpg",
+            "title" : "The Slo-Mo Show 2",
+            "subtitle" : "You wouldn’t have seen anything like this before. Amazing skate moves in grizzly detail.",
+            "caption" : "Sport",
+            "action" : "videos",
+            "params" : {"id" : 1}
+        },
+        {
             "image" : "section-home01.jpg",
             "title" : "The Slo-Mo Show",
             "subtitle" : "You wouldn’t have seen anything like this before. Amazing skate moves in grizzly detail.",

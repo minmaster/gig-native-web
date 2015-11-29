@@ -2,33 +2,51 @@
 
 import { Component } from 'react';
 import MenuStore from '../stores/MenuStore';
+import MenuActions from '../actions/MenuActions';
+import Router, { History } from 'react-router';
 
-import React, {
-  ListView,
-  NavigatorIOS
-} from 'react-native';
+
 
 class Menu extends Component {
 
   constructor(props) {
-      var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
       super(props);
       this.state = {
-          menuItems: ds.cloneWithRows(MenuStore.getData())
+          menuItems:[]
       };
 
       this.menuClick = this.menuClick.bind(this);
+      this._onChange = this._onChange.bind(this);
   }
+
+
+  componentWillMount () {
+      MenuStore.addChangeListener(this._onChange);
+  }
+
+  componentDidMount () {
+      MenuActions.getMenu();
+  }
+
+  componentWillUnmount () {
+      MenuStore.removeChangeListener(this._onChange);
+  }
+
   menuClick(item) {
       this.context.menuActions.close();
+      console.log(this);
+      console.log(History);
 
       setTimeout(() =>  {
-          this.props.navigator.push({
-              title: item.title,
-              id: item.id
-          })
+          console.log(item);
+          this.props.navigation.history.pushState(null, item.path)
       }, 250)
   }
+    _onChange() {
+        this.setState({
+            menuItems : MenuStore.getMenu()
+        });
+    }
 
 
 }
