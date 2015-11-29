@@ -4,7 +4,7 @@ ADDED from /Users/pedrojose/Documents/repo/gig-native-web/android/app/src/main/A
 	xmlns:android
 		ADDED from /Users/pedrojose/Documents/repo/gig-native-web/android/app/src/main/AndroidManifest.xml:1:11-69
 	package
-		ADDED from /Users/pedrojose/Documents/repo/gig-native-web/android/app/src/main/AndroidManifest.xml:2:5-41
+		ADDED from /Users/pedrojose/Documents/repo/gig-native-web/android/app/src/main/AndroidManifest.xml:2:5-47
 		INJECTED from /Users/pedrojose/Documents/repo/gig-native-web/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/pedrojose/Documents/repo/gig-native-web/android/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -36,7 +36,7 @@ MERGED from [com.android.support:support-v4:23.0.1] /Users/pedrojose/Documents/r
 		ADDED from /Users/pedrojose/Documents/repo/gig-native-web/android/app/src/main/AndroidManifest.xml:9:7-41
 	android:theme
 		ADDED from /Users/pedrojose/Documents/repo/gig-native-web/android/app/src/main/AndroidManifest.xml:10:7-38
-activity#com.gigigo.cokestream_demo.MainActivity
+activity#com.reactnativenwreactcalculator.MainActivity
 ADDED from /Users/pedrojose/Documents/repo/gig-native-web/android/app/src/main/AndroidManifest.xml:11:7-18:18
 	android:label
 		ADDED from /Users/pedrojose/Documents/repo/gig-native-web/android/app/src/main/AndroidManifest.xml:13:9-41
