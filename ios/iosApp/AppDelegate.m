@@ -51,6 +51,7 @@
                                                    launchOptions:launchOptions];
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+  [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
   UIViewController *rootViewController = [[UIViewController alloc] init];
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
