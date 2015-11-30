@@ -32,15 +32,12 @@ var ArticleStore = assign({}, EventEmitter.prototype, {
  })
 
 ArticleStore.dispatchToken = Dispatcher.register(function (payload) {
-    console.log(payload);
     var action = payload.action;
 
     switch (action.actionType) {
         case ArticleConstants.RECEIVE_ARTICLE:
             setArticle(action.article);
             break;
-
-
         default:
             return true;
             break;

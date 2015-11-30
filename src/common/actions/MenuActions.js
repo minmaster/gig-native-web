@@ -6,8 +6,6 @@ import Dispatcher from '../dispatcher/AppDispatcher';
 import MenuConstants from '../constants/MenuConstants';
 
 var url = Parameters.url;
-console.log(url);
-
 // Define the ActionCreator.
 var MenuActions = {
     getMenu: function () {
