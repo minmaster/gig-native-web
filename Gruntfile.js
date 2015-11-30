@@ -30,6 +30,7 @@ module.exports = function (grunt) {
       options: {
         hot: true,
         port: 8000,
+        headers: { "Access-Control-Allow-Origin": "*" },
         webpack: webpackDevConfig,
         publicPath: '/assets/',
         contentBase: './<%= pkg.src %>/'

@@ -4,20 +4,21 @@ import { EventEmitter } from 'events';
 import assign from 'object-assign';
 import request from 'superagent';
 import promise from 'bluebird';
+import Parameters from '../utils/parameters';
 
-var url = 'http://localhost:8000/src/data/videos.json';
+var url = Parameters.url+'src/data/videos.json';
 
 var VideoStore = assign({}, EventEmitter.prototype, {
     getVideos: function() {
         return new Promise((resolve, reject) => {
             request
                 .get(url)
-                .end(function(error, data) {
+                .end(function(error, response) {
                     if (error) {
                         reject(error);
                     }
                     else {
-                        resolve(data);
+                        resolve(JSON.parse(response.text.videos));
                     }
                 })
 
@@ -32,7 +33,8 @@ var VideoStore = assign({}, EventEmitter.prototype, {
                         reject(error);
                     }
                     else {
-                        var videos = response.body.videos;
+                        console.log(response);
+                        var videos = JSON.parse(response.text).videos;
                         videos.filter((el) => {
                             if (el.id == id) {
                               resolve(el);

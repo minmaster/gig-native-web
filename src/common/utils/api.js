@@ -11,7 +11,7 @@ var Api = {
                     if (error) {
                         reject(error);
                     } else {
-                        resolve(response.body);
+                        resolve(JSON.parse(response.text));
                     }
             });
         });

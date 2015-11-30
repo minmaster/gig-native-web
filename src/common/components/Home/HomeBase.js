@@ -16,6 +16,7 @@ class Home extends Component {
   }
   componentDidMount() {
       HomeStore.getData().then(data => {
+          console.log(data);
           this.setState({items: data.home});
       })
   }
