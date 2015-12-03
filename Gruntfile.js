@@ -29,7 +29,7 @@ module.exports = function (grunt) {
     'webpack-dev-server': {
       options: {
         hot: true,
-        port: 8000,
+        port: 8080,
         headers: { "Access-Control-Allow-Origin": "*" },
         webpack: webpackDevConfig,
         publicPath: '/assets/',
@@ -43,7 +43,7 @@ module.exports = function (grunt) {
 
     'connect': {
       options: {
-        port: 8000
+        port: 8080
       },
 
       dist: {

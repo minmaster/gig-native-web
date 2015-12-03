@@ -1,7 +1,6 @@
 'use strict';
 
 import AppDispatcher from '../dispatcher/AppDispatcher';
-import CalculatorConstants from '../constants/CalculatorConstants';
 
 var HomeActions = {
 

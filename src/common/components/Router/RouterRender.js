@@ -8,6 +8,7 @@ import SideMenu from '../SideMenu/SideMenu';
 import Menu from '../Menu/Menu'
 import Video from '../Video/Video';
 import Article from '../Article/Article';
+import Gallery from '../Gallery/Gallery';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 export default function () {
@@ -22,6 +23,7 @@ export default function () {
                   <Route path="/" component={Home}></Route>
                   <Route path="/videos/:id" component={Video}></Route>
                   <Route path="/articles/:id" component={Article}></Route>
+                  <Route path="/gallery" component={Gallery}></Route>
                 </Router>
 
         </section>

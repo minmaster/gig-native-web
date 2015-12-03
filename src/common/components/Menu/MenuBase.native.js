@@ -3,6 +3,7 @@
 import { Component } from 'react';
 import MenuStore from '../../stores/MenuStore';
 import MenuActions from '../../actions/MenuActions';
+import Navigation from '../../utils/navigation';
 
 import React, {
   ListView
@@ -36,13 +37,16 @@ class Menu extends Component {
 
   menuClick(item, type) {
       this.context.menuActions.close();
+      var currentRoute = Navigation.getCurrentRoute(this.props.navigator.getCurrentRoutes());
 
-      setTimeout(() =>  {
-          this.props.navigator.push({
-              title: item.title,
-              id: item.id
-          })
-      }, 250)
+      if (currentRoute.id != item.id) {
+          setTimeout(() =>  {
+              this.props.navigator.push({
+                  title: item.title,
+                  id: item.id
+              })
+          }, 250)
+      }
   }
     _onChange() {
         var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});

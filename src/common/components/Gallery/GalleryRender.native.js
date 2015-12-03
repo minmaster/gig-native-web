@@ -22,19 +22,19 @@ export default function () {
   return (
       <Carousel width={window.width} animate={false} hideIndicators={true}>
           <View style={styles.container}>
-            <Image source={require('../../images/gallery01.jpg')} style={styles.image}></Image>
+            <Image source={require('../../../images/gallery01.jpg')} style={styles.image}></Image>
           </View>
           <View style={styles.container}>
-            <Image source={require('../../images/gallery02.jpg')} style={styles.image}></Image>
+            <Image source={require('../../../images/gallery02.jpg')} style={styles.image}></Image>
           </View>
           <View style={styles.container}>
-            <Image source={require('../../images/gallery03.jpg')} style={styles.image}></Image>
+            <Image source={require('../../../images/gallery03.jpg')} style={styles.image}></Image>
           </View>
           <View style={styles.container}>
-            <Image source={require('../../images/gallery04.jpg')} style={styles.image}></Image>
+            <Image source={require('../../../images/gallery04.jpg')} style={styles.image}></Image>
           </View>
           <View style={styles.container}>
-            <Image source={require('../../images/gallery05.jpg')} style={styles.image}></Image>
+            <Image source={require('../../../images/gallery05.jpg')} style={styles.image}></Image>
           </View>
       </Carousel>
   );

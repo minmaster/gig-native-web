@@ -35,8 +35,9 @@ class Menu extends Component {
   menuClick(item) {
       this.context.menuActions.close();
 
+
       setTimeout(() =>  {
-          console.log(item);
+          if (item.path)
           this.props.navigation.history.pushState(null, item.path)
       }, 250)
   }

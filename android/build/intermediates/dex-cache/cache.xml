@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Users/pedrojose/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.4.0/69206d28966656052a982ceded583abdeb41cf63/okhttp-ws-2.4.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-4c563bd2227e412b7516ed14a9861b68221ae0bd.jar" />
-    </item>
-    <item
-        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.6.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="af0fe468c884e2d153cf564326b23b54ff0040ce">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-763e452e30c9bcb0baa82d29250c514871c539b7.jar" />
+        sha1="69206d28966656052a982ceded583abdeb41cf63">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.4.0-d544c99eb9b5c4fbb5f8a4c87fd320840fe68a57.jar" />
     </item>
     <item
         jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
@@ -23,25 +16,11 @@
         <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-da05e3b4c2914f00abb21629502f1aaf70c9031a.jar" />
     </item>
     <item
-        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.6.1/jars/classes.jar"
+        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.13.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1d5fddbfc516e39dd74d776e5cca8b761721990b">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-1098fbd7ff3bae1ace797bcf9f199b04d083d125.jar" />
-    </item>
-    <item
-        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.13.0/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0b5e946b76cdb1f00b18f2981e7d997141a66c9f">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-01ca535b22c77ee8e58821c50d6e6ba7d5f65a74.jar" />
-    </item>
-    <item
-        jar="/Users/pedrojose/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-1db1528668f4db46b1692785bf5a043c9b90210b.jar" />
+        sha1="5cf2e19782be86b2cc857dcec5bf6211457e7138">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-8a6526e75cd29d662af466ac931804113a36a845.jar" />
     </item>
     <item
         jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.6.1/jars/classes.jar"
@@ -51,46 +30,11 @@
         <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-a2576f6bb02332629fdf5e573b91f044ec4181d8.jar" />
     </item>
     <item
-        jar="/Users/pedrojose/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.13.0/jars/libs/infer-annotations-1.5.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-09e9a11d90e0448c299e3c0fae7bcb59d27c210e.jar" />
-    </item>
-    <item
-        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.13.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5cf2e19782be86b2cc857dcec5bf6211457e7138">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-8a6526e75cd29d662af466ac931804113a36a845.jar" />
-    </item>
-    <item
-        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-c5789dc7e9ad055604b0b762a16f4b2b89c3d619.jar" />
-    </item>
-    <item
-        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.6.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="eb9817e26186e1a267cdd14211742ecc793de32e">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-fdf9e4879586d5a82fbd18e1d505e5346a5281d4.jar" />
-    </item>
-    <item
-        jar="/Users/pedrojose/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-f53f43fbe843939721ef9c7791b431e49347888d.jar" />
-    </item>
-    <item
-        jar="/Users/pedrojose/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.4.0/69206d28966656052a982ceded583abdeb41cf63/okhttp-ws-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="69206d28966656052a982ceded583abdeb41cf63">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.4.0-d544c99eb9b5c4fbb5f8a4c87fd320840fe68a57.jar" />
+        sha1="0b5e946b76cdb1f00b18f2981e7d997141a66c9f">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-01ca535b22c77ee8e58821c50d6e6ba7d5f65a74.jar" />
     </item>
     <item
         jar="/Users/pedrojose/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
@@ -100,18 +44,25 @@
         <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-dcdae5c3e276e01d9361ea75e87032a7cdd76c95.jar" />
     </item>
     <item
-        jar="/Users/pedrojose/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-a4eb1074b4ce07157bc60e0dca3946924d0a4193.jar" />
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-c5789dc7e9ad055604b0b762a16f4b2b89c3d619.jar" />
     </item>
     <item
-        jar="/Users/pedrojose/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.5.0/bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a/okio-1.5.0.jar"
+        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.6.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a">
-        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/okio-1.5.0-26b8055b520c1dceea53c746072c665708cff8c3.jar" />
+        sha1="af0fe468c884e2d153cf564326b23b54ff0040ce">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-763e452e30c9bcb0baa82d29250c514871c539b7.jar" />
+    </item>
+    <item
+        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-4c563bd2227e412b7516ed14a9861b68221ae0bd.jar" />
     </item>
     <item
         jar="/Users/pedrojose/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
@@ -126,6 +77,55 @@
         revision="23.0.1"
         sha1="c10091a128e47ed4ef804bd753c0f45745699756">
         <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-c0b0303a54cd700fadd05825ca94e1f7369d08cf.jar" />
+    </item>
+    <item
+        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d5fddbfc516e39dd74d776e5cca8b761721990b">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-1098fbd7ff3bae1ace797bcf9f199b04d083d125.jar" />
+    </item>
+    <item
+        jar="/Users/pedrojose/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-1db1528668f4db46b1692785bf5a043c9b90210b.jar" />
+    </item>
+    <item
+        jar="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eb9817e26186e1a267cdd14211742ecc793de32e">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/classes-fdf9e4879586d5a82fbd18e1d505e5346a5281d4.jar" />
+    </item>
+    <item
+        jar="/Users/pedrojose/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.5.0/bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a/okio-1.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/okio-1.5.0-26b8055b520c1dceea53c746072c665708cff8c3.jar" />
+    </item>
+    <item
+        jar="/Users/pedrojose/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-f53f43fbe843939721ef9c7791b431e49347888d.jar" />
+    </item>
+    <item
+        jar="/Users/pedrojose/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-09e9a11d90e0448c299e3c0fae7bcb59d27c210e.jar" />
+    </item>
+    <item
+        jar="/Users/pedrojose/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-a4eb1074b4ce07157bc60e0dca3946924d0a4193.jar" />
     </item>
 
 </items>

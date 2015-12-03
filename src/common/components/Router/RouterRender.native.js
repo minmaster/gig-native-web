@@ -10,14 +10,21 @@ import React, {
   StyleSheet,
   Navigator,
   View,
-  Text
+  Text,
+  BackAndroid
 } from 'react-native';
 
 const window = Dimensions.get('window');
 var menuHeight = window.width - 60;
 
-
 export default function () {
+    BackAndroid.addEventListener('hardwareBackPress', () => {
+        console.log('pasa');
+        this.refs.nav.pop();
+        return true;
+    });
+
+
   return (
       <SideMenu ref="sidemenu" menu={<Menu navigator={this.state.nav}/>} openMenuOffset={menuHeight} defaultOpen={this.state.menu}>
           <View style={styles.content}>

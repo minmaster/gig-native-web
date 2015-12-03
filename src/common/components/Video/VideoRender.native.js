@@ -1,6 +1,5 @@
 'use strict';
 
-import YouTube from 'react-native-youtube';
 import Button from 'react-native-button';
 
 import React, {
@@ -9,7 +8,8 @@ import React, {
   Platform,
   ScrollView,
   Text,
-  Image
+  Image,
+  WebView
 } from 'react-native';
 
 
@@ -17,12 +17,11 @@ export default function () {
   return (
       <ScrollView style={styles.container}>
         {(this.state.item.source) ?
-        <YouTube
+        <WebView
             ref="youtubePlayer"
-            videoId={this.state.item.source}
-            play={false}
-            playsInline={true}
-            hidden={false}
+            automaticallyAdjustContentInsets={true}
+            url={'https://www.youtube.com/embed/'+this.state.item.source}
+            javaScriptEnabledAndroid={true}
             style={styles.video}/>
         : <View /> }
         <View style={styles.detail}>

@@ -36,18 +36,27 @@ export default class SideMenu extends Component {
         this.setState({
             menu: false
         })
+        document.body.style.overflow = 'auto';
     }
 
     toggleMenu() {
         this.setState({
             menu: !this.state.menu
         })
+
+        if (!this.state.menu) {
+            window.scrollTo(0,0);
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
     }
 
     openMenu() {
         this.setState({
             menu: true
         })
+        document.body.style.overflow = 'hidden';
     }
 
 

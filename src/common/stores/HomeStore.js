@@ -15,9 +15,6 @@ var HomeStore = assign({}, EventEmitter.prototype, {
                 .get(url)
                 .set('Accept', 'application/json')
                 .end(function(error, response) {
-                    console.log(response);
-                    console.log(response.text);
-                    console.log(error);
                     if (error) {
                         reject(error);
                     }

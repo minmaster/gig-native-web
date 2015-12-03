@@ -16,25 +16,34 @@ class Home extends Component {
   }
   componentDidMount() {
       HomeStore.getData().then(data => {
-          console.log(data);
           this.setState({items: data.home});
       })
   }
 
   handleClick(item, type) {
-    if (type === 'native') {
-      this.props.navigator.push({
-            id: item.action,
-            passProps: {item: item},
-        });
-     }
+      if (!item.action) {
+          return null;
+      }
 
-     if (type === 'web') {
-        this.props.history.pushState(item.action, item.action+'/'+item.params.id, {item: item})
-     }
+      if (type === 'native') {
+          this.props.navigator.push({
+              id: item.action,
+              passProps: {item: item}
+          });
+      }
+
+      if (type === 'web') {
+
+          var url;
+          if (item.params) {
+              url = item.action+'/'+item.params.id;
+          } else{
+              url = item.action;
+          }
+
+          this.props.history.pushState(item.action, url, {item: item})
+      }
   }
-
-
 }
 
 
