@@ -10,6 +10,7 @@ var url = Parameters.url;
 // Define the ActionCreator.
 var ArticleActions = {
     getArticle: function (id) {
+
         Api
             .get(url + 'src/data/articles.json')
             .then(function (data) {
