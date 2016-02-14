@@ -34,8 +34,6 @@ class Menu extends Component {
 
   menuClick(item) {
       this.context.menuActions.close();
-      console.log('pasa');
-
 
       setTimeout(() =>  {
           if (item.path)

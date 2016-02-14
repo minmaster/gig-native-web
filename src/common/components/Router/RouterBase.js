@@ -12,9 +12,50 @@ class Router extends Component {
   constructor(props) {
       super(props);
       this.state = {
-          nav: null
+          nav: null,
+          isOpen: false
+      }
+
+      this.updateMenuState = this.updateMenuState.bind(this);
+      this.toggle = this.toggle.bind(this);
+  }
+
+  updateMenuState(isOpen) {
+    this.setState({ isOpen, });
+  }
+
+  toggle() {
+      this.setState({
+          isOpen: !this.state.isOpen
+      });
+  }
+
+  close() {
+      this.setState({
+          isOpen: false
+      })
+  }
+
+  open() {
+      this.setState({
+          isOpen: true
+      })
+  }
+
+  getChildContext() {
+      return {
+          menuActions: this.getMenuActions()
+      };
+  }
+
+  getMenuActions() {
+      return {
+          toggle: this.toggle.bind(this),
+          open: this.open.bind(this),
+          close: this.close.bind(this)
       }
   }
+
   renderScene(route, nav) {
       var Component;
 

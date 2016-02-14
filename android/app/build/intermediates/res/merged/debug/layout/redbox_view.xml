@@ -18,4 +18,4 @@
     android:text="@string/catalyst_reloadjs"
     />
 </LinearLayout>
-<!-- From: file:/Users/mkonicek/code/react-native/ReactAndroid/src/main/res/devsupport/layout/redbox_view.xml --><!-- From: file:/Users/pedrojose/Documents/repo/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.13.0/res/layout/redbox_view.xml -->
+<!-- From: file:/Users/mkonicek/code/react-native/ReactAndroid/src/main/res/devsupport/layout/redbox_view.xml --><!-- From: file:/Users/pedro/Documents/proyectos/gig-native-web/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.13.0/res/layout/redbox_view.xml -->

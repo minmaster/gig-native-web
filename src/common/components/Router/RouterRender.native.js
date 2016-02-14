@@ -19,14 +19,17 @@ var menuHeight = window.width - 60;
 
 export default function () {
     BackAndroid.addEventListener('hardwareBackPress', () => {
-        console.log('pasa');
         this.refs.nav.pop();
         return true;
     });
 
 
   return (
-      <SideMenu ref="sidemenu" menu={<Menu navigator={this.state.nav}/>} openMenuOffset={menuHeight} defaultOpen={this.state.menu}>
+      <SideMenu
+        ref="sidemenu"
+        isOpen={this.state.isOpen}
+        onChange={(isOpen) => this.updateMenuState.bind(this, isOpen)}
+        menu={<Menu navigator={this.state.nav}/>} openMenuOffset={menuHeight} defaultOpen={this.state.menu}>
           <View style={styles.content}>
             <Header  />
             <Navigator

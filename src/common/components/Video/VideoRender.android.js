@@ -1,6 +1,7 @@
 'use strict';
 
 import Button from 'react-native-button';
+import WebViewAndroid from 'react-native-webview-android';
 
 import React, {
   StyleSheet,
@@ -16,7 +17,13 @@ export default function () {
   return (
       <ScrollView style={styles.container}>
         {(this.state.item.source) ?
-        <View/>
+            <WebViewAndroid
+              ref="webViewAndroidSample"
+              javaScriptEnabled={true}
+              geolocationEnabled={false}
+              builtInZoomControls={false}
+              url={'http://www.youtube.com/watch?v='+this.state.item.source}
+              style={styles.containerWebView} />
         : <View /> }
         <View style={styles.detail}>
             <Text style={styles.title}>{this.state.item.title}</Text>
@@ -32,6 +39,10 @@ export default function () {
 
 
 var styles = StyleSheet.create({
+    containerWebView: {
+        flex: 1,
+        height: 250
+    },
     container: {
         flex: 1,
         backgroundColor: '#363744'
