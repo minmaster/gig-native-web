@@ -1,0 +1,37 @@
+{
+    "videos" : [
+        {
+            "id" : 1,
+            "source" : "6Nh4XdVh7hI",
+            "capture" : "assets/img/video-01.jpg",
+            "title" : "The Slo-Mo Show",
+            "subtitle" : null,
+            "description" : "You wouldn’t have seen anything like this before. Amazing skate moves in grizzly detail."
+        },
+        {
+            "id" : 2,
+            "source" : "JyveKFmxN_o",
+            "capture" : "assets/img/video-02.jpg",
+            "title" : "The Pizza Show",
+            "subtitle" : "Best pizzas out there",
+            "description" : "We’ll travel the globe to uncover the best pizzas out there. Meet the characters that deliver slices of pure happiness."
+        },
+        {
+            "id" : 3,
+            "source" : "6vHUZm06050",
+            "capture" : "assets/img/video-04.jpg",
+            "title" : "Encore! Secret gig on your block",
+            "subtitle" : null,
+            "description" : "BAND is playing an encore near you next Friday. Buy tickets to the sellout shown in an unknown location somewhere in Shoreditch now. ",
+            "buy" : true
+        },
+        {
+            "id" : 4,
+            "source" : "ZDS-AD5KRps",
+            "capture" : "assets/img/video-03.jpg",
+            "title" : "Modern Family",
+            "subtitle" : "Ackee & Saltfish",
+            "description" : "These girls are serving up laughs and proper eats. Enter the world of Ackee & Saltfish. Episode 3. "
+        }
+    ]
+}

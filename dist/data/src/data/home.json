@@ -1,0 +1,105 @@
+{
+    "home" : [
+        {
+            "image" : "section-home03.jpg",
+            "title" : "The Slo-Mo Show 2",
+            "subtitle" : "You wouldn’t have seen anything like this before. Amazing skate moves in grizzly detail.",
+            "caption" : "Sport",
+            "action" : "videos",
+            "params" : {"id" : 1}
+        },
+        {
+            "image" : "section-home01.jpg",
+            "title" : "The Slo-Mo Show",
+            "subtitle" : "You wouldn’t have seen anything like this before. Amazing skate moves in grizzly detail.",
+            "caption" : "Sport",
+            "action" : "videos",
+            "params" : {"id" : 1}
+        },
+        {
+            "image" : "section-home02.jpg",
+            "title" : "The Pizza Show",
+            "subtitle" : "We’ll travel the globe to uncover the best pizzas out there. Meet the characters that deliver slices of pure happiness.",
+            "caption" : "Food",
+            "action" : "videos",
+            "params" : {"id" : 2}
+        },
+        {
+            "image" : "image-home01.jpg",
+            "action" : null
+        },
+        {
+            "image" : "section-home03.jpg",
+            "title" : "Holiday Girl",
+            "subtitle" : "The three year holiday",
+            "caption" : "Life",
+            "className" : "right",
+            "action" : "articles",
+            "params" : {"id" : 1}
+        },
+        {
+            "image" : "section-home04.jpg",
+            "title" : "Modern Family",
+            "subtitle" : "Ackee & Saltfish",
+            "caption" : "POP",
+            "className" : "right",
+            "action" : "videos",
+            "params" : {"id" : 4}
+        },
+        {
+            "image" : "image-home02.jpg",
+            "action" : null
+        },
+        {
+            "image" : "section-home05.jpg",
+            "title" : "Justin Bieber. SRSLY",
+            "subtitle" : "#RealTalk with Biebs",
+            "caption" : "POP",
+            "className" : "black",
+            "action" : "articles",
+            "params" : {"id" : 2}
+        },
+        {
+            "image" : "section-home10.jpg",
+            "title" : "Everything about LE1F'S",
+            "subtitle" : "LE1F is just way too much fun, and his latest video is no exception.",
+            "caption" : "Music",
+            "className" : "black",
+            "action" : "articles",
+            "params" : {"id" : 4}
+        },
+        {
+            "image" : "section-home06.jpg",
+            "title" : "We Love Coke",
+            "subtitle" : "Best ambassadors",
+            "caption" : "Gallery",
+            "className" : "scan",
+            "action" : "gallery"
+        },
+        {
+            "image" : "section-home07.jpg",
+            "title" : "Real Beauty",
+            "subtitle" : "Eye of the beholder",
+            "caption" : "Life",
+            "action" : "articles",
+            "params" : {"id" : 5}
+        },
+        {
+            "image" : "section-home08.jpg",
+            "title" : "Kiss Happiness",
+            "subtitle" : "Share your real self",
+            "button" : "Free shipping",
+            "caption" : "Free Stuff",
+            "action" : "content.kiss"
+        },
+        {
+            "image" : "section-home09.jpg",
+            "title" : "Happy River",
+            "subtitle" : "Super cool free stuff",
+            "button" : "Play now!",
+            "className" : "righttext",
+            "caption" : "Play",
+            "action" : "intro.happy"
+        }
+    ]
+}

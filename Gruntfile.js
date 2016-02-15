@@ -88,11 +88,25 @@ module.exports = function (grunt) {
             flatten: true,
             src: ['<%= pkg.src %>/favicon.ico'],
             dest: '<%= pkg.dist %>/favicon.ico'
-          }
+          },
+          {
+            flatten: true,
+            src: ['<%= pkg.src %>/src/data/{,*/}*.*'],
+            dest: '<%= pkg.dist %>/data/'
+          },
+          {
+            expand: true,
+            dot: true,
+            cwd: '<%= pkg.src %>/src/',
+            dest: '<%= pkg.dist %>/src',
+                    src: [
+                        'images/{,*/}*.*',
+                        'data/{,*/}*.*'
+                    ]
+          },
         ]
-      }
+        }
     },
-
     'clean': {
       dist: {
         files: [{
