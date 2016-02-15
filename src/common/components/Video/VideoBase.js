@@ -13,9 +13,19 @@ class Video extends Component {
   }
 
   componentDidMount() {
-      var item = this.props.item || this.props.location.query.item;
 
-      VideoStore.getVideo(item.params.id).then((data) => {
+      var id;
+
+      console.log(this.props);
+
+      if (this.props.item) {
+          id = this.props.item.params.id;
+      } else {
+          id = this.props.params.id;
+      }
+      console.log(id);
+
+      VideoStore.getVideo(id).then((data) => {
           this.setState({item: data})
       })
   }

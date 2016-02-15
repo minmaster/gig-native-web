@@ -21,8 +21,17 @@ class Article extends Component {
     }
 
     componentDidMount () {
-        var item = this.props.item || this.props.location.query.item;
-        ArticleActions.getArticle(item.params.id);
+
+        var id;
+
+        if (this.props.item) {
+            id = this.props.item.params.id;
+        }
+        else {
+            id = this.props.params.id;
+        }
+
+        ArticleActions.getArticle(id);
     }
 
     componentWillUnmount () {

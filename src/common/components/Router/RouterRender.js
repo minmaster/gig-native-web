@@ -15,17 +15,16 @@ export default function () {
   return (
       <SideMenu className="sidebar" menu={<Menu navigation={this.state.nav}  />}>
         <Header />
+
         <ReactCSSTransitionGroup transitionName="example" transitionEnterTimeout={500} transitionLeaveTimeout={300}>
 
         <section>
-
-                <Router ref="nav">
-                  <Route path="/" component={Home}></Route>
-                  <Route path="/videos/:id" component={Video}></Route>
-                  <Route path="/articles/:id" component={Article}></Route>
-                  <Route path="/gallery" component={Gallery}></Route>
-                </Router>
-
+            <Router ref="nav">
+                <Route path="/" component={Home}></Route>
+                <Route path="/videos/:id" component={Video}></Route>
+                <Route path="/articles/:id" component={Article}></Route>
+                <Route path="/gallery" component={Gallery}></Route>
+            </Router>
         </section>
         </ReactCSSTransitionGroup>
       </SideMenu>
